@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -19,133 +19,246 @@
       referrerpolicy="no-referrer"
     />
     <title>SavorÉssence</title>
-</head>
-<body>
-    
-    <!-- HEADER -->
+  </head>
+
+  <body>
     <header class="">
-        <div class="d-flex justify-content-center align-items-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <img
+          class="d-none d-md-block"
+          src="./img/anuncio.png"
+          height="80px"
+          alt="Banner promocional"
+        />
+        <img
+          class="d-md-none d-block"
+          src="./img/anuncio.png"
+          height="40px"
+          alt="Banner promocional"
+        />
+      </div>
+
+      <!-- navbar -->
+      <nav class="bg-white navbar flex-column navbar-expand-lg p-0">
+        <div
+          class="container-fluid w-100 d-flex flex-row flex-md-column align-items-center align-items-md-stretch p-0"
+        >
+          <button
+            id="menu"
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="d-flex justify-content-around gap-5 align-items-center"
+            style="height: 70px"
+          >
+            <form class="d-md-none d-flex corTexto fs-3" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                style="width: 200px"
+                class="border-0 corTexto"
+                type="text"
+                name=""
+                id=""
+                placeholder="Buscar"
+              />
+            </form>
+            <form class="d-none d-md-flex corTexto fs-2" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                class="border-0 corTexto"
+                type="text"
+                name=""
+                id=""
+                placeholder="Buscar"
+              />
+            </form>
+            <a
+              href="#"
+              class="d-none d-md-block btn text-light rounded-pill px-4 corFundo"
+              >Torne-Se Um Membro</a
+            >
+          </div>
+          <a
+            class="d-md-none nav-link corTexto fw-bold d-flex flex-column align-items-center text-nowrap p-1"
+            href="#"
+            ><i class="bi bi-person fs-2"></i> Cadastrar-se</a
+          >
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="py-5 px-2 navbar-nav d-flex justify-content-around align-items-md-center align-items-start border border-1 border-start-0 border-end-0 border-black w-100"
+              id="bordaNavBar"
+            >
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Membro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Área Infantil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Nossa História</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
+                  href="#"
+                  ><i class="bi bi-book fs-3"></i> Meu Perfil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
+                  href="#"
+                  ><i class="bi bi-person fs-3"></i> Entrar/Cadastrar-se</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="my-4">
+      <!-- Destaque -->
+      <div class="container highlight-card mb-4 border rounded overflow-hidden">
+        <img
+          src="./img/Macarrão.jpg"
+          alt="Comida Saudável"
+          style="width: 1300px; height: 600px"
+        />
+        <div class="p-3">
+          <h5 class="fw-bold">
+            🥗 Comidas Saudáveis: O Que São, Benefícios e Exemplos para o Dia a
+            Dia
+          </h5>
+          <p class="text-muted mb-0" style="font-size: 0.9rem">
+            Adotar uma alimentação saudável é o primeiro passo para melhorar a
+            saúde e o bem-estar. Saiba o que são comidas saudáveis, conheça seus
+            benefícios e veja exemplos fáceis de aplicar no seu dia a dia.
+          </p>
+        </div>
+      </div>
+
+      <!-- Assinatura -->
+      <section
+        class="intro justify-content-around justify-content-md-around p-0 over"
+      >
+        <div class="intro-texto text-center">
+          <h1 class="fontRokkitt">Savoréssence</h1>
+          <p>Fique por dentro das novidades da Savoréssence</p>
+          <button>Se Inscreva-Se</button>
+          <a href="#">Leia mais sobre se tornar um membro</a>
+        </div>
+        <div class="intro-imagem">
           <img
-            class="d-none d-md-block"
-            src="./img/anuncio.png"
-            height="80px"
-            alt="Banner promocional"
-          />
-          <img
-            class="d-md-none d-block"
-            src="./img/anuncio.png"
-            height="40px"
-            alt="Banner promocional"
+            class="object-fit-cover w-100"
+            src="./img/comida.png"
+            height="240px"
+            alt="Prato colorido de legumes"
           />
         </div>
-  
-        <!-- navbar -->
-        <nav class="bg-white navbar flex-column navbar-expand-lg p-0">
-          <div
-            class="container-fluid w-100 d-flex flex-row flex-md-column align-items-center align-items-md-stretch p-0"
-          >
-            <button
-              id="menu"
-              class="navbar-toggler border-0"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="d-flex justify-content-around gap-5 align-items-center"
-              style="height: 70px"
-            >
-              <form class="d-md-none d-flex corTexto fs-3" role="search">
-                <i class="bi bi-search"></i>
-                <input
-                  style="width: 200px"
-                  class="border-0 corTexto"
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Buscar"
-                />
-              </form>
-              <form class="d-none d-md-flex corTexto fs-2" role="search">
-                <i class="bi bi-search"></i>
-                <input
-                  class="border-0 corTexto"
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Buscar"
-                />
-              </form>
-              <a
-                href="#"
-                class="d-none d-md-block btn text-light rounded-pill px-4 corFundo"
-                >Torne-Se Um Membro</a
-              >
-            </div>
-            <a
-              class="d-md-none nav-link corTexto fw-bold d-flex flex-column align-items-center text-nowrap p-1"
-              href="#"
-              ><i class="bi bi-person fs-2"></i> Cadastrar-se</a
-            >
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul
-                class="py-5 px-2 navbar-nav d-flex justify-content-around align-items-md-center align-items-start border border-1 border-start-0 border-end-0 border-black w-100"
-                id="bordaNavBar"
-              >
-                <li class="nav-item">
-                  <a class="nav-link corTexto fw-bold" href="#">Receitas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link corTexto fw-bold" href="#">Membro</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link corTexto fw-bold" href="#">Área Infantil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link corTexto fw-bold" href="#">Nossa História</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link corTexto fw-bold" href="#">Ajuda</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
-                    href="#"
-                    ><i class="bi bi-book fs-3"></i> Meu Perfil</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
-                    href="#"
-                    ><i class="bi bi-person fs-3"></i> Entrar/Cadastrar-se</a
-                  >
-                </li>
-              </ul>
+      </section>
+
+      <!-- Receitas -->
+      <section class="recipes-section my-5">
+        <h3 class="text-center mb-3">Receitas saudáveis</h3>
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <div class="recipe-card text-center">
+              <img
+                src="./img/Salada.png"
+                alt="Salada de Quinoa"
+                style="width: 200px; height: 150px"
+              />
+              <p class="recipe-title">Salada de Quinoa com Legumes.</p>
             </div>
           </div>
-        </nav>
-      </header>
-  
-      <!-- IMAGEM DECORATIVA ANTES DO TEXTO -->
-  
-      <img
-        class="d-none d-md-block w-100 object-fit-cover"
-        src="./img/Savor.png"
-      />
-      <img
-        class="d-md-none d-block w-100 object-fit-cover"
-        src="./img/SavorMobile.png"
-      />
-      
-      <footer class="instagram">
-        <p>FAÇA PARTE DA NOSSA COMUNIDADE, SIGA A</p>
-        <h3>@Savoréssence</h3>
-      </footer>
-</body>
+          <div class="col-6 col-md-3">
+            <div class="recipe-card text-center">
+              <img
+                src="./img/Abobrinha.png"
+                alt="Abobrinha Recheada"
+                style="width: 200px; height: 150px"
+              />
+              <p class="recipe-title">
+                Abobrinha recheada, três opções de recheio!
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="recipe-card text-center">
+              <img
+                src="./img/Overnight.png"
+                alt="Overnight Oats"
+                style="width: 200px; height: 150px"
+              />
+              <p class="recipe-title">
+                Overnight Oats (aveia de um dia pro outro).
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="recipe-card text-center">
+              <img
+                src="./img/Bolinho.png"
+                alt="Bolinho de Banana"
+                style="width: 200px; height: 150px"
+              />
+              <p class="recipe-title">Bolinho de Banana e Aveia.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção do formulário -->
+      <section class="bg-success bg-opacity-25 text-center p-4 rounded mb-5">
+        <h5 class="fw-bold">
+          RESPONDA NOSSO FORMULÁRIO <br />
+          ABAIXO PARA AJUDAR NA <br />
+          FILTRAGEM DE RECEITAS
+        </h5>
+        <button class="btn btn-outline-secondary mt-3">Clique Aqui</button>
+      </section>
+
+      <!-- Seção Fale Conosco -->
+      <section
+        class="bg-light rounded p-4 mb-5 d-flex flex-column flex-md-row align-items-center justify-content-between"
+      >
+        <div class="mb-4 mb-md-0">
+          <h2 class="text-success">Fale conosco</h2>
+          <p class="fs-5 text-center">
+            CASO TENHA ALGUM PROBLEMA <br />
+            CONTATE NOSSA CENTRAL DE AJUDA
+          </p>
+          <button class="btn btn-sm">Se Inscreva-Se</button>
+        </div>
+        <div>
+          <img
+            src="./img/Tomate.png"
+            alt="Tomate Mascote"
+            class="img-fluid"
+            style="width: 450px; height: 550px; margin-right: 100px"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="instagram">
+      <p>FAÇA PARTE DA NOSSA COMUNIDADE, SIGA A</p>
+      <h3>@Savoréssence</h3>
+    </footer>
+  </body>
 </html>

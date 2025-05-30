@@ -44,3 +44,65 @@ header {
     font-weight: bold;
     color: #1a3725;
   }
+
+  main {
+    font-family: Arial, sans-serif;
+  }
+  .highlight-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .subscribe-section {
+    background-color: #264d3d;
+    color: #fff;
+  }
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+  }
+  .recipes-section h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .recipe-title {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f4f43;
+    color: white;
+    padding: 40px;
+    align-items: center;
+  }
+  
+  .intro-texto {
+    max-width: 50%;
+  }
+  
+  .intro-texto button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    color: #2f4f43;
+    font-weight: bold;
+  }
+  
+  .intro-texto a {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  .intro-imagem img {
+    max-height: 200px;
+  }
+
+  
