@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.fontRokkitt {
+  font-family: "Rokkitt", serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #2d5f49;
+  color: white;
+}
+
+.corTexto {
+  color: #27483e !important;
+}
+
+.corFundo {
+  background-color: #2d5f49 !important;
+}
+
+#bordaNavBar {
+  border-color: #27483e !important;
+}
+
+.instagram {
+    background-color: #dcebdc;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    color: #1a3725;
+  }
