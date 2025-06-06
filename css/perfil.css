@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.fontRokkitt {
+  font-family: "Rokkitt", serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #2d5f49;
+  color: white;
+}
+
+.corTexto {
+  color: #27483e !important;
+}
+
+.corFundo {
+  background-color: #2d5f49 !important;
+}
+
+#bordaNavBar {
+  border-color: #27483e !important;
+}
+
+ /* RODAPÉ */
+ .footer-v2 {
+    background-color: #3d5a40;
+    color: white;
+    padding: 3rem 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  .footer-newsletter {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-newsletter h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-newsletter p {
+    margin-bottom: 1rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    background: white;
+    border-radius: 999px;
+    overflow: hidden;
+    max-width: 360px;
+    margin-bottom: 0.8rem;
+  }
+  
+  .signup-form input {
+    border: none;
+    padding: 0.8rem 1rem;
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .signup-form button {
+    background-color: #3d5a40;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-newsletter small {
+    font-size: 0.75rem;
+    color: #ddd;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .social-icons {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-columns {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 2;
+  }
+  
+  .column {
+    min-width: 150px;
+  }
+  
+  .column h4 {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .column a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+  
+  .footer-bottom .footer-links a {
+    color: #ccc;
+    margin-left: 1.5rem;
+    text-decoration: none;
+  }
