@@ -1,0 +1,462 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;700&display=swap");
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.fontRokkitt {
+  font-family: "Rokkitt", serif;
+  font-weight: 400;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #2d5f49;
+  color: white;
+}
+
+.corTexto {
+  color: #27483e !important;
+}
+
+.corFundo {
+  background-color: #2d5f49 !important;
+}
+
+#bordaNavBar {
+  border-color: #27483e !important;
+}
+
+/* .top-bar img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+} */
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.logo span {
+  color: #3a5f34;
+}
+
+/* .nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+} */
+
+/* .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: gcolor 0.3s;
+} */
+
+/* .nav-links li a:hover {
+  color: #c3e088;
+} */
+
+.cta-button {
+  background-color: white;
+  color: #2d5f49;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #c3e088;
+}
+
+/* Seção Objetivos */
+
+.titulo {
+  font-family: "Playfair Display", serif;
+
+  color: #2d5f49;
+}
+
+.subtitulo {
+  color: #666;
+}
+
+.conteudo-objetivos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  text-align: left;
+}
+
+/* .texto {
+  flex: 2;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.imagens-laterais {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.imagens-laterais img {
+  width: 100%;
+  border-radius: 10px;
+} */
+
+/* Seção Produtos */
+.produtos {
+  background-color: #e2f4e2;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.produtos h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #2d5f49;
+  margin-bottom: 0.5rem;
+}
+
+.produtos .descricao {
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-weight: bold;
+  color: #2d5f49;
+}
+
+/* Rodapé Newsletter */
+.newsletter {
+  background-color: #2d5f49;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.newsletter .texto {
+  flex: 1;
+  max-width: 400px;
+}
+
+.newsletter h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.btn-newsletter {
+  background-color: white;
+  color: #2d5f49;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.newsletter img {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .conteudo-objetivos,
+  .cards,
+  .newsletter {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagens-laterais {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+}
+
+/* imagem-decorativa {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  background-color: #f9f9f9;
+}
+
+/* INTRO */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f4f43;
+  color: white;
+  padding: 40px;
+  align-items: center;
+}
+
+.intro-texto {
+  max-width: 50%;
+}
+
+.intro-texto button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: #2f4f43;
+  font-weight: bold;
+}
+
+.intro-texto a {
+  display: block;
+  margin-top: 10px;
+  color: white;
+  font-size: 0.9em;
+}
+
+.intro-imagem img {
+  max-height: 200px;
+}
+
+/* CRIADORAS */
+.criadoras {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.criadoras h2 {
+  font-size: 2em;
+  font-family: Georgia, serif;
+}
+
+.subtitulo {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: #2f4f43;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* HISTÓRIA */
+.historia {
+  padding: 40px;
+  text-align: center;
+  color: #2f4f43;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+/*Insta*/
+.instagram {
+  background-color: #dcebdc;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-weight: bold;
+  color: #1a3725;
+}
+
+.instagram h3 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+/* RODAPÉ */
+.footer-v2 {
+  background-color: #3d5a40;
+  color: white;
+  padding: 3rem 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.footer-newsletter {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-newsletter h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-newsletter p {
+  margin-bottom: 1rem;
+}
+
+.signup-form {
+  display: flex;
+  background: white;
+  border-radius: 999px;
+  overflow: hidden;
+  max-width: 360px;
+  margin-bottom: 0.8rem;
+}
+
+.signup-form input {
+  border: none;
+  padding: 0.8rem 1rem;
+  flex: 1;
+  font-size: 1rem;
+}
+
+.signup-form button {
+  background-color: #3d5a40;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-newsletter small {
+  font-size: 0.75rem;
+  color: #ddd;
+  display: block;
+  margin-top: 1rem;
+}
+
+.social-icons {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.column {
+  min-width: 150px;
+}
+
+.column h4 {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.column a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.footer-bottom .footer-links a {
+  color: #ccc;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}

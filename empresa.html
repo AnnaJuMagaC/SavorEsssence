@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SavorÉssence</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="">
+      <div class="d-flex justify-content-center align-items-center">
+        <img
+          class="d-none d-md-block"
+          src="./img/banner.png"
+          height="80px"
+          alt="Banner promocional"
+        />
+        <img
+          class="d-md-none d-block"
+          src="./img/anuncio.png"
+          height="40px"
+          alt="Banner promocional"
+        />
+      </div>
+
+      <!-- navbar -->
+      <nav class="bg-white navbar flex-column navbar-expand-lg p-0">
+        <div
+          class="container-fluid w-100 d-flex flex-row flex-md-column align-items-center align-items-md-stretch p-0"
+        >
+          <button
+            id="menu"
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="d-flex justify-content-around gap-5 align-items-center"
+            style="height: 70px"
+          >
+            <form class="d-md-none d-flex corTexto fs-3" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                style="width: 200px"
+                class="border-0 corTexto"
+                type="text"
+                name=""
+                id=""
+                placeholder="Buscar"
+              />
+            </form>
+            <form class="d-none d-md-flex corTexto fs-2" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                class="border-0 corTexto"
+                type="text"
+                name=""
+                id=""
+                placeholder="Buscar"
+              />
+            </form>
+            <a
+              href="#"
+              class="d-none d-md-block btn text-light rounded-pill px-4 corFundo"
+              >Torne-Se Um Membro</a
+            >
+          </div>
+          <a
+            class="d-md-none nav-link corTexto fw-bold d-flex flex-column align-items-center text-nowrap p-1"
+            href="#"
+            ><i class="bi bi-person fs-2"></i> Cadastrar-se</a
+          >
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="py-5 px-2 navbar-nav d-flex justify-content-around align-items-md-center align-items-start border border-1 border-start-0 border-end-0 border-black w-100"
+              id="bordaNavBar"
+            >
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Membro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Área Infantil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Nossa História</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
+                  href="#"
+                  ><i class="bi bi-book fs-3"></i> Meu Perfil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
+                  href="#"
+                  ><i class="bi bi-person fs-3"></i> Entrar/Cadastrar-se</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- IMAGEM DECORATIVA ANTES DO TEXTO -->
+
+    <img
+      class="d-none d-md-block w-100 object-fit-cover"
+      src="./img/Savor.png"
+    />
+   
+    <main>
+      <!-- OBJETIVOS -->
+      <section
+        class="d-flex flex-column justify-content-center align-items-center gap-3 text-center mt-5"
+      >
+        <div class="d-block d-md-none">
+          <h1 class="titulo" style="font-size: 35px">Objetivos da empresa</h1>
+          <p class="subtitulo fs-5 fst-italic">
+            O que faz pensamos, nosso público alvo e desenvolvimento.
+          </p>
+        </div>
+
+        <div class="d-md-block d-none">
+          <h1 class="titulo" style="font-size: 100px">Objetivos da empresa</h1>
+          <p class="subtitulo fs-3 fst-italic">
+            O que faz pensamos, nosso público alvo e desenvolvimento.
+          </p>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center flex-wrap gap-5 container px-3"
+          style="text-align: justify"
+        >
+          <div class="fontRokkitt fs-4 lh-1 me-md-5" style="max-width: 800px">
+            <p class="text-break">
+              O projeto propõe o desenvolvimento de uma plataforma online
+              inovadora e acessível, voltada para a alimentação saudável,
+              personalizada e inclusiva. A proposta central é oferecer um
+              ambiente digital que reúna receitas cuidadosamente elaboradas,
+              adaptadas às mais diversas restrições e preferências alimentares
+              dos usuários. Isso inclui desde dietas específicas, como
+              vegetarianas, veganas, low carb e sem glúten, até condições
+              médicas como diabetes, hipertensão e alergias alimentares, além de
+              atender pessoas com transtornos alimentares ou alto grau de
+              seletividade alimentar — como é comum em crianças ou em indivíduos
+              com TEA (Transtorno do Espectro Autista). A plataforma contará com
+              um sistema avançado de filtragem inteligente, que permitirá aos
+              usuários encontrar receitas adequadas com base em seus perfis
+              nutricionais e preferências individuais. Esses perfis serão
+              personalizados e poderão ser atualizados a qualquer momento,
+              garantindo uma experiência contínua e ajustada às necessidades de
+              cada pessoa. Além das receitas, os usuários terão acesso a
+              conteúdos complementares que fortalecem o aspecto educativo da
+              plataforma. Entre eles, destacam-se artigos nutricionais, e-books
+              personalizados com base nos interesses e restrições do usuário, e
+              cardápios infantis ilustrados, desenvolvidos para tornar o
+              processo de alimentação das crianças mais lúdico, atrativo e
+              saudável. A interatividade é outro pilar fundamental do projeto. A
+              plataforma contará com um sistema de avaliações por estrelas,
+              permitindo que os usuários classifiquem receitas, compartilhem
+              suas experiências e recomendem conteúdos. Os cozinheiros ou
+              criadores de conteúdo mais bem avaliados serão destacados na
+              comunidade, incentivando a produção de receitas criativas,
+              nutritivas e bem elaboradas. O objetivo maior é promover a
+              alimentação saudável de maneira inclusiva, interativa e educativa,
+              oferecendo recursos que vão além da simples receita. A plataforma
+              visa ser uma aliada na construção de hábitos alimentares mais
+              conscientes, proporcionando autonomia, conhecimento e prazer ao
+              comer. Seja para quem busca melhorar sua saúde, cuidar de alguém
+              com necessidades alimentares específicas ou apenas se alimentar de
+              forma mais equilibrada, a plataforma se apresenta como uma solução
+              completa, acolhedora e moderna.
+            </p>
+            <!-- restante do texto aqui -->
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center gap-3 ms-md-5"
+          >
+            <img
+              class="object-fit-cover rounded-1"
+              src="./img/abobora.png"
+              alt="Prato saudável 1"
+              width="250px"
+              height="220px"
+            />
+            <img
+              class="object-fit-cover rounded-1"
+              src="./img/macarrao.jpg"
+              alt="Prato saudável 2"
+              width="250px"
+              height="220px"
+            />
+            <img
+              class="object-fit-cover rounded-1"
+              src="./img/grao.jpg"
+              alt="Prato saudável 3"
+              width="250px"
+              height="220px"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUTOS -->
+      <section class="produtos mt-4 mb-5">
+        <h2 style="font-size: 60px">Conheça nossos produtos</h2>
+        <p class="descricao">
+          Da reeducação alimentar ao conteúdo lúdico, aprimore seus
+          conhecimentos com nossos materiais exclusivos.
+        </p>
+        <div class="cards d-flex align-items-center justify-content-center">
+          <div class="card">
+            <img src="./img/desenho.png" alt="Livro Reeducação" />
+            <p>Reeduque sua alimentação</p>
+          </div>
+          <div class="card">
+            <img src="./img/ebook.png" alt="Livro Colorir" />
+            <p>Livro de colorir informativo</p>
+          </div>
+          <div class="card">
+            <img src="./img/cardapio.png" alt="Cardápio Personalizado" />
+            <p>Cardápio personalizado</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+ </section>
+ <section class="mb-5">
+    <h5 class="text-center fw-bold mb-4">Artigos sobre alimentação →</h5>
+    <div class="row w-100 g-4">
+      <div class="col-md-4 text-center">
+        <img src="./img/imagem.png" class="img-fluid mb-2" alt="Artigo 1" style="width: 200px; height: 150px;">
+        <p class="small">6 Suplementos que Você Deve Evitar se Sofre com Enxaquecas, Segundo Nutricionistas</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="./img/imagem (1).png" class="img-fluid mb-2" alt="Artigo 2" style="width: 200px; height: 150px;">
+        <p class="small">O Hábito Alimentar Nº1 à Tarde que Você Deve Evitar para Dormir Melhor, Segundo Especialistas em Sono</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="./img/imagem (2).png" class="img-fluid mb-2" alt="Artigo 3" style="width: 200px; height: 150px;">
+        <p class="small">Sou Nutricionista e o Molho Vinagrete com 6 Ingredientes da Minha Avó Sempre Será o Meu Favorito</p>
+      </div>
+    </div>
+  </section>
+
+ <section class="instagram">
+   <p>FAÇA PARTE DA NOSSA COMUNIDADE, SIGA A</p>
+   <h3>@Savoréssence</h3>
+ </section>
+</main>
+
+<div style="height: 30px"></div>
+
+<footer class="footer-v2 mt-5">
+ <div class="footer-top">
+   <div class="footer-newsletter">
+     <h2><em>Se inscreva ou vire membro</em></h2>
+     <p>
+       Adicione seu email para receber notificações sobre nossas
+       novidades.
+     </p>
+     <form class="signup-form">
+       <input type="email" placeholder="Seu e-mail" required />
+       <button type="submit">Sign Up</button>
+     </form>
+     <small>
+       Se inscreva-se para receber emails da Savoréssence sobre suas
+       novidades e aceite os termos e condições.
+     </small>
+     <div class="social-icons">
+       <a href="#"
+         ><img
+           src="https://img.icons8.com/ios-filled/20/ffffff/instagram-new.png"
+       /></a>
+       <a href="#"
+         ><img src="https://img.icons8.com/ios-filled/20/ffffff/x.png"
+       /></a>
+       <a href="#"
+         ><img
+           src="https://img.icons8.com/ios-filled/20/ffffff/pinterest--v1.png"
+       /></a>
+     </div>
+   </div>
+
+   <div class="footer-columns">
+     <div class="column">
+       <h4>Explorar</h4>
+       <a href="#">Receitas</a>
+       <a href="#">Nossa História</a>
+       <a href="#">Sobre Membros</a>
+       <a href="#">Artigos</a>
+     </div>
+     <div class="column">
+       <h4>Equipe</h4>
+       <a href="#">Criadoras</a>
+       <a href="#">Time</a>
+       <a href="#">Profissionais</a>
+     </div>
+     <div class="column">
+       <h4>Contatos</h4>
+       <a href="#">Fale Conosco</a>
+       <a href="#">Cadastre-se</a>
+       <a href="#">Termos de Inscrição</a>
+     </div>
+   </div>
+ </div>
+
+ <div class="footer-bottom">
+   <p>© Todos os direitos reservados.</p>
+   <div class="footer-links">
+     <a href="#">privacidade e política</a>
+     <a href="#">Termos & condições</a>
+   </div>
+ </div>
+</footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
