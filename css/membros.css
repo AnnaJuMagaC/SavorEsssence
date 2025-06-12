@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .corTexto{
+    color: #3d5a40;
+  }
+
+.fontRokkitt {
+    font-family: "Rokkitt", serif;
+    font-weight: 400;
+  }
+  
+  header {
+    background-color: #2d5f49;
+    color: white;
+  }
+  
+  .corTexto {
+    color: #27483e !important;
+  }
+  
+  .corFundo {
+    background-color: #2d5f49 !important;
+  }
+  
+  #bordaNavBar {
+    border-color: #27483e !important;
+  }
+  
+  .instagram {
+      background-color: #dcebdc;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-weight: bold;
+      color: #1a3725;
+    }
+  
+    main {
+      font-family: Arial, sans-serif;
+    }
+    .highlight-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .subscribe-section {
+      background-color: #264d3d;
+      color: #fff;
+    }
+    .recipe-card img {
+      width: 100%;
+      height: auto;
+    }
+    .recipes-section h3 {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .recipe-title {
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+    }
+  
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      background-color: #2f4f43;
+      color: white;
+      padding: 40px;
+      align-items: center;
+    }
+    
+    .intro-texto {
+      max-width: 50%;
+    }
+    
+    .intro-texto button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: none;
+      background: white;
+      color: #2f4f43;
+      font-weight: bold;
+    }
+    
+    .intro-texto a {
+      display: block;
+      margin-top: 10px;
+      color: white;
+      font-size: 0.9em;
+    }
+    
+    .intro-imagem img {
+      max-height: 200px;
+    }
+
+
+     /* RODAPÉ */
+  .footer-v2 {
+    background-color: #3d5a40;
+    color: white;
+    padding: 3rem 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  .footer-newsletter {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-newsletter h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-newsletter p {
+    margin-bottom: 1rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    background: white;
+    border-radius: 999px;
+    overflow: hidden;
+    max-width: 360px;
+    margin-bottom: 0.8rem;
+  }
+  
+  .signup-form input {
+    border: none;
+    padding: 0.8rem 1rem;
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .signup-form button {
+    background-color: #3d5a40;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-newsletter small {
+    font-size: 0.75rem;
+    color: #ddd;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .social-icons {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-columns {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 2;
+  }
+  
+  .column {
+    min-width: 150px;
+  }
+  
+  .column h4 {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .column a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+  
+  .footer-bottom .footer-links a {
+    color: #ccc;
+    margin-left: 1.5rem;
+    text-decoration: none;
+  }

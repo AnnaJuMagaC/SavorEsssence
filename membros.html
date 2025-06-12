@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savoréssence</title>
+    <link rel="stylesheet" href="./css/membros.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   </head>
+   <body>
+    <header class="">
+      <div class="d-flex justify-content-center align-items-center">
+        <img
+          class="d-none d-md-block"
+          src="./img/anuncio.png"
+          height="80px"
+          alt="Banner promocional"
+        />
+        <img
+          class="d-md-none d-block"
+          src="./img/anuncio.png"
+          height="40px"
+          alt="Banner promocional"
+        />
+      </div>
+
+      <!-- navbar -->
+      <nav class="bg-white navbar flex-column navbar-expand-lg p-0">
+        <div
+          class="container-fluid w-100 d-flex flex-row flex-md-column align-items-center align-items-md-stretch p-0"
+        >
+          <button
+            id="menu"
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="d-flex justify-content-around gap-5 align-items-center"
+            style="height: 70px"
+          >
+            <form class="d-md-none d-flex corTexto fs-3" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                style="width: 200px"
+                class="border-0 corTexto"
+                type="text"
+                name=""
+                id=""
+                placeholder="Buscar"
+              />
+            </form>
+            <form class="d-none d-md-flex corTexto fs-2" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                class="border-0 corTexto"
+                type="text"
+                name=""
+                id=""
+                placeholder="Buscar"
+              />
+            </form>
+            <a
+              href="#"
+              class="d-none d-md-block btn text-light rounded-pill px-4 corFundo"
+              >Torne-Se Um Membro</a
+            >
+          </div>
+          <a
+            class="d-md-none nav-link corTexto fw-bold d-flex flex-column align-items-center text-nowrap p-1"
+            href="#"
+            ><i class="bi bi-person fs-2"></i> Cadastrar-se</a
+          >
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="py-5 px-2 navbar-nav d-flex justify-content-around align-items-md-center align-items-start border border-1 border-start-0 border-end-0 border-black w-100"
+              id="bordaNavBar"
+            >
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Membro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Área Infantil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Nossa História</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link corTexto fw-bold" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
+                  href="#"
+                  ><i class="bi bi-book fs-3"></i> Meu Perfil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link corTexto fw-bold d-flex align-items-center gap-2"
+                  href="./login.html"
+                  ><i class="bi bi-person fs-3"></i> Entrar/Cadastrar-se</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="py-5">
+        
+        <!-- Título Sobre Membros -->
+        <section class="corTexto text-center mb-5">
+          <h2 class="fw-bold mb-4">Sobre Membros</h2>
+          <p class="mx-auto" style="max-width: 800px;">
+            Ao se tornar membro da nossa comunidade culinária, você tem acesso a uma série de benefícios exclusivos, como salvar receitas ilimitadas, criar cardápios sem restrições, interagir com chefs e especialistas, acessar uma loja com produtos selecionados e receber itens mensais para inspirar suas criações. Além disso, é possível aumentar sua visibilidade, monetizar seu talento e ganhar destaque entre os membros. Junte-se a nós e transforme sua paixão pela culinária em uma experiência ainda mais completa e gratificante.
+          </p>
+        </section>
+
+        <section class="mb-5">
+            <h5 class="text-center fw-bold mb-4">Artigos sobre alimentação →</h5>
+            <div class="row w-100 g-4">
+              <div class="col-md-4 text-center">
+                <img src="./img/ABC.png" class="img-fluid mb-2" alt="Artigo 1" style="width: 200px; height: 150px;">
+                <p class="small">6 Suplementos que Você Deve Evitar se Sofre com Enxaquecas, Segundo Nutricionistas</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="./img/Acordando.png" class="img-fluid mb-2" alt="Artigo 2" style="width: 200px; height: 150px;">
+                <p class="small">O Hábito Alimentar Nº1 à Tarde que Você Deve Evitar para Dormir Melhor, Segundo Especialistas em Sono</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="./img/Saudavel.png" class="img-fluid mb-2" alt="Artigo 3" style="width: 200px; height: 150px;">
+                <p class="small">Sou Nutricionista e o Molho Vinagrete com 6 Ingredientes da Minha Avó Sempre Será o Meu Favorito</p>
+              </div>
+            </div>
+          </section>
+
+           <!-- Novos Recursos -->
+  <section class="fundo text-center">
+    <h2 class="fw-bold mb-4">Novos Recursos</h2>
+    <ul class="corTexto list-unstyled">
+      <li>Sem limite de receitas salvas;</li>
+      <li>Acesso à nossa loja;</li>
+      <li>Contato com profissionais;</li>
+      <li>Recebidos mensais;</li>
+      <li>Monetização de perfil;</li>
+      <li>Cozinheiros destaque;</li>
+      <li>Sem limite na criação de cardápios;</li>
+    </ul>
+  </section>
+
+          <!-- Seção: Produtos -->
+  <section class="text-center py-5">
+    <h2 class="fw-bold display-6">Conheça nossos produtos</h2>
+    <p class="text-muted mb-5 mx-auto" style="max-width: 700px;">
+      Da orientação informativa ao conteúdo lúdico, a plataforma combina conhecimento e criatividade para transformar a alimentação saudável em uma experiência acessível e prazerosa para todas as idades.
+    </p>
+    <div class="row w-100 g-4 justify-content-center">
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 border-0 shadow-sm  d-flex justify-content-center align-items-center">
+          <img src="./img/ebook imagem.png" class="card-img-top img-fluid" alt="Ebook Redução Alimentar" style="width: 300px; height: 200px;">
+          <div class="card-body">
+            <h6 class="card-title fw-semibold">EBOOK PARA SUA REDUÇÃO ALIMENTAR</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 border-0 shadow-sm d-flex justify-content-center align-items-center">
+          <img src="./img/livro colorir imagem.png" class="card-img-top img-fluid" alt="Livros de colorir infantil" style="width: 300px; height: 200px;">
+          <div class="card-body">
+            <h6 class="card-title fw-semibold">LIVROS DE COLORIR INFANTIL INFORMATIVO</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 border-0 shadow-sm d-flex justify-content-center align-items-center">
+          <img src="./img/cardápio imagem.png" class="card-img-top img-fluid" alt="Cardápio personalizado" style="width: 300px; height: 200px;">
+          <div class="card-body">
+            <h6 class="card-title fw-semibold">CARDÁPIO PERSONALIZADO</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    </main>
+
+  <footer class="footer-v2 mt-5">
+    <div class="footer-top">
+      <div class="footer-newsletter">
+        <h2><em>Se inscreva ou vire membro</em></h2>
+        <p>
+          Adicione seu email para receber notificações sobre nossas
+          novidades.
+        </p>
+        <form class="signup-form">
+          <input type="email" placeholder="Seu e-mail" required />
+          <button type="submit">Sign Up</button>
+        </form>
+        <small>
+          Se inscreva-se para receber emails da Savoréssence sobre suas
+          novidades e aceite os termos e condições.
+        </small>
+        <div class="social-icons">
+          <a href="#"
+            ><img
+              src="https://img.icons8.com/ios-filled/20/ffffff/instagram-new.png"
+          /></a>
+          <a href="#"
+            ><img src="https://img.icons8.com/ios-filled/20/ffffff/x.png"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://img.icons8.com/ios-filled/20/ffffff/pinterest--v1.png"
+          /></a>
+        </div>
+      </div>
+
+      <div class="footer-columns">
+        <div class="column">
+          <h4>Explorar</h4>
+          <a href="#">Receitas</a>
+          <a href="#">Nossa História</a>
+          <a href="#">Sobre Membros</a>
+          <a href="#">Artigos</a>
+        </div>
+        <div class="column">
+          <h4>Equipe</h4>
+          <a href="#">Criadoras</a>
+          <a href="#">Time</a>
+          <a href="#">Profissionais</a>
+        </div>
+        <div class="column">
+          <h4>Contatos</h4>
+          <a href="#">Fale Conosco</a>
+          <a href="#">Cadastre-se</a>
+          <a href="#">Termos de Inscrição</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">privacidade e política</a>
+        <a href="#">Termos & condições</a>
+      </div>
+    </div>
+  </footer>
