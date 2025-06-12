@@ -1,7 +1,78 @@
 /* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;700&display=swap");
+<style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+}
 
+.container-fluid {
+  height: 100vh;
+}
+
+.left-column {
+  background-color: #fff;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-column h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.left-column p {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding-left: 2.5rem;
+  border-radius: 8px;
+}
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #2f4f4f;
+}
+
+.btn-custom {
+  background-color: #3e6945;
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.btn-custom:hover {
+  background-color: #305837;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.right-column {
+  background-image: url('./img/brocolis.jpg'); /* Substitua pela sua imagem */
+  background-size: cover;
+  background-position: center;
+}
+</style>
 /* Reset básico */
 * {
   margin: 0;
