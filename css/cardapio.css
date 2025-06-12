@@ -37,6 +37,25 @@ header {
   border-color: #27483e !important;
 }
 
+.corBack{
+ background-color:  #CFE2C0;
+}
+
+.botao{
+    text-decoration: none;
+    color: #27483e;
+    border: 2px solid #27483e;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.botao:hover{
+    background-color: #27483e;
+    color: #CFE2C0;
+}
+
+
  /* RODAPÉ */
  .footer-v2 {
     background-color: #3d5a40;
